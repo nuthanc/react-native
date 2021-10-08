@@ -24,3 +24,7 @@ npm start
   * Create a Component: a function that returns some JSX
   * Create a Stylesheet to style our component
   * Export the Component
+
+### Showing a Custom Component
+
+* In App.js, import and provide ComponentsScreen as an option to createStackNavigator
