@@ -53,3 +53,8 @@ npm start
 * We can refer to JS variables inside of a JSX block by using curly braces
   * Cannot show JS object inside of Text element
 * We can assing JSX elements to a variable, then show that variable inside of a JSX block
+
+### One Common Error
+
+* After return immediately ( or the JSX element not in the next line
+* If it's in the next line, it is considered as return; and we get an Error
