@@ -44,3 +44,12 @@ npm start
 // The below gives a warning instead of big Error as seen from StyleSheet.create
 <Text style={{fontsize: 30}}>Hi There!</Text>
 ```
+
+### Rules of JSX
+
+* We can assemble different JSX elements like normal HTML
+  * Use View element to position or group multiple elements within it
+* We configure different JSX elements using props
+* We can refer to JS variables inside of a JSX block by using curly braces
+  * Cannot show JS object inside of Text element
+* We can assing JSX elements to a variable, then show that variable inside of a JSX block
