@@ -1,7 +1,7 @@
 # react-native
 
 * Author's repo: https://github.com/StephenGrider/redux-code
-
+* https://app.diagrams.net/#Hnuthanc%2Frn-casts%2Fmaster%2Fdiagrams%2F07%2Fdiagrams.xml
 ### Overview
 
 * Write code
@@ -28,3 +28,19 @@ npm start
 ### Showing a Custom Component
 
 * In App.js, import and provide ComponentsScreen as an option to createStackNavigator
+
+### Common Question and Answers
+
+![qa](img/qa.png)
+* Primitive elements
+  * Text
+  * View: Element for grouping other elements or stylings
+  * Image
+  * Button
+* StyleSheet.create is not required to create styles, but it is used for additional validation it provides
+```js
+<Text style={{fontSize: 30}}>Hi There!</Text>
+
+// The below gives a warning instead of big Error as seen from StyleSheet.create
+<Text style={{fontsize: 30}}>Hi There!</Text>
+```
