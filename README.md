@@ -58,3 +58,7 @@ npm start
 
 * After return immediately ( or the JSX element not in the next line
 * If it's in the next line, it is considered as return; and we get an Error
+
+### JSX Exercise Overview
+
+![ex](img/ex.png)
