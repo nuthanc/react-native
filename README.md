@@ -74,3 +74,12 @@ npm start
 * 2 props:
   * data: array of data
   * renderItem: function that will turn each individual item into an element
+
+### Rendering a List
+
+* Use of FlatList component
+* It takes 2 props: data and renderItem
+* data will take the array as value 
+* renderItem will be each element in the Array
+  * element will have item and index property
+  * So destructure item
