@@ -83,3 +83,10 @@ npm start
 * renderItem will be each element in the Array
   * element will have item and index property
   * So destructure item
+
+### Why a Key Property
+
+* key provides a way for React Native to track lists 
+* Without key, if a list item is deleted, React Native will delete every Item on Screen and render again
+* With key, it knows which item is deleted and will remove only that element and move certain items if necessay
+* This enhances the performance of React Native
