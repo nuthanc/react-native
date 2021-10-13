@@ -66,3 +66,11 @@ npm start
 ### Building Lists
 
 * Add ListScreen Component
+
+### The FlatList Element
+
+* Arrays to show as Lists in Mobile
+* FlatList Element
+* 2 props:
+  * data: array of data
+  * renderItem: function that will turn each individual item into an element
